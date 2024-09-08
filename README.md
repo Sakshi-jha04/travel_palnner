@@ -5,6 +5,11 @@ While recommendation systems have become widespread in e-commerce and entertainm
 
 Let us design an application that focuses on the convenience of tourists by leveraging recommendation systems and can create a personalized, intuitive experience for travelers.
 
+## Introduction video
+
+Use this link to watch introductory video - "https://drive.google.com/file/d/1yMNUeU5mQBDjh6R-MfRy6Ruh2XRmrIzU/view?usp=sharing"
+
+
 ## How to run it locally
 
 To run the project locally, ensure that you have cloned the repository and installed all the libraries from the requirements.txt file. You may create a virtual environment using pip or conda to make the process a bit more streamlined. 
