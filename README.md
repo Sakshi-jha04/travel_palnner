@@ -15,5 +15,6 @@ source myenv/bin/activate
 pip install -r requirements.txt
 streamlit run main.py
 ```
-# Travel_Planner
-# Travel_Planner
+## How to access currently deployed version
+
+Use this link to access the webpage - "https://travelpalnner-jtxd9korg8vx9npkozcx2k.streamlit.app"
