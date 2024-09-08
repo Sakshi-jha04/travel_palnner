@@ -21,5 +21,5 @@ Use this link to access the webpage - "https://travelpalnner-jtxd9korg8vx9npkozc
 
 ## Pictures : 
 
-!['input_image']('data/Input.png')
+![input_image](./data/Input.png)
 
