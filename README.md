@@ -3,7 +3,7 @@
 
 While recommendation systems have become widespread in e-commerce and entertainment, their potential impact on the travel and tourism industry is just beginning to unfold. Travel planning is inherently complex, involving multiple decisions related to destinations, accommodations, activities, and transportation. Recommendation systems can simplify this process by providing tailored suggestions for every aspect of a trip, helping travelers make informed decisions that align with their preferences, budget, and time constraints.
 
-Let us design an application that focuses on the convenience of tourists by leveraging recommendation systems can create a personalized, intuitive experience for travelers.
+Let us design an application that focuses on the convenience of tourists by leveraging recommendation systems and can create a personalized, intuitive experience for travelers.
 
 ## How to run it locally
 
