@@ -198,7 +198,7 @@ def main():
 
     result=""
     st.write(' ')
-    if st.button("What do you recommend?"):
+    if st.button("Click here to see Recommendations!"):
 
         try:
           RESULT = output_main(Type,Duration,Budget,TYPE,Ques)
