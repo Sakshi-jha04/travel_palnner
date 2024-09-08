@@ -54,18 +54,18 @@ from PIL import Image
 
 # List of image file paths
 images = [
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine1.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine2.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine3.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine4.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine5.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine6.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine7.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine8.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine9.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine10.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine11.png",
-    "/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/bg_mine12.png"
+    "/data/bg_mine1.png",
+    "/data/bg_mine2.png",
+    "/data/bg_mine3.png",
+    "/data/bg_mine4.png",
+    "/data/bg_mine5.png",
+    "/data/bg_mine6.png",
+    "/data/bg_mine7.png",
+    "/data/bg_mine8.png",
+    "/data/bg_mine9.png",
+    "/data/bg_mine10.png",
+    "/data/bg_mine11.png",
+    "/data/bg_mine12.png"
 ]
 
 if 'index' not in st.session_state:
@@ -121,7 +121,7 @@ def feedback_form():
         ct = datetime.datetime.now()
         if email and comments:
             # Save feedback to a CSV file or database
-            with open('/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/feedback - Sheet1.csv', 'a') as f:
+            with open('/data/feedback - Sheet1.csv', 'a') as f:
                 f.write(f"{email},{rating},{comments},{ct}\n")
             
             st.success("Thank you for your feedback!")
