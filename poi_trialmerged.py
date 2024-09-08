@@ -33,7 +33,7 @@ def FINAL(Type,Duration,Budget,TYPE,Ques):
 
   jaipur_poi_df = pd.read_csv('data/jaipur-poi.csv')
   dist_only_matrix_df = pd.read_csv('data/dist_only_matrix.csv')
-  feedback_csv = '/Users/sakshi/Desktop/Code/Travel_Itinerary_Generator/data/feedback - Sheet1.csv'
+  feedback_csv = 'data/feedback - Sheet1.csv'
 
   jaipur_poi_df.set_index('PID',inplace=True)
   jaipur_poi_df.head()
