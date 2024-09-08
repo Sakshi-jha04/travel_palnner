@@ -18,3 +18,8 @@ streamlit run main.py
 ## How to access currently deployed version
 
 Use this link to access the webpage - "https://travelpalnner-jtxd9korg8vx9npkozcx2k.streamlit.app"
+
+## Pictures : 
+
+!['input_image']('data/Input.png')
+
