@@ -22,4 +22,8 @@ Use this link to access the webpage - "https://travelpalnner-jtxd9korg8vx9npkozc
 ## Pictures : 
 
 ![input_image](./data/Input.png)
+![suggestion_and_feedback_image](./data/Suggestions_and_Location_Map.png)
+![feedback_image](./data/Feedback.png)
+
+
 
